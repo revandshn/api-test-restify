@@ -1,0 +1,24 @@
+{
+  "name": "restfull-api-nodejs",
+  "version": "1.0.0",
+  "description": "Simple Restfull API",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "mongodb",
+    "restify"
+  ],
+  "author": "Revand Shn",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^3.5.9",
+    "restify": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
